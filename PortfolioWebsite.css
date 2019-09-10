@@ -1,0 +1,261 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: arial,"Microsoft JhengHei","微軟正黑體",sans-serif !important;
+}
+section{
+  height: 100vh;
+}
+.first{
+  position: relative;
+  margin: 0;
+  padding: 0;
+  line-height: 60vh;
+  font-size: 120px;
+  color: white;
+  text-align: center;
+  font-family: 'Noto Sans TC', sans-serif;
+}
+.navigationLink
+{
+  box-sizing: border-box;
+  display: inline-block;
+  margin: 80px 0px;
+  padding: 5px;
+  color: white;
+  width: 20%;
+  font-size: 30px;
+  text-decoration: none;
+  z-index: 0
+}
+.navigationLink:hover{
+  text-decoration: underline;
+}
+.notfirst{
+  margin: 0px 20%;
+
+}
+.nav2_block{
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  float: right;
+  text-align: right;
+  top: 0px;
+  right: 0px;
+  width: 900px;
+  height: 750px;
+  z-index: 0;
+  opacity: .99;
+}
+.nav2{
+  display: block;
+  color: black;
+  text-decoration: none;
+  font-family: 'Noto Sans TC', sans-serif;
+  line-height: 70px;
+  font-size: 50px;
+  left: 0px;
+  z-index: 0;
+
+/*  transition: font-size 2s;*/
+}
+.nav2:hover{
+  transition: font-size 1s;
+  font-size: 70px;
+}
+.nav3{
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  float: left;
+  text-align: left;
+  top: 300px;
+  left: 25px;
+  margin: 0;
+  width: 125px;
+  height: 200px;
+  z-index: 0;
+}
+.nav3_word{
+  display: block;
+  color: white;
+  border: 1px solid white;
+  background-color: #1B2121;
+  text-decoration: none;
+  text-align: center;
+  font-family: 'Noto Sans TC', sans-serif;
+  line-height: 45px;
+  font-size: 24px;
+  left: 0px;
+  z-index: 0;
+  opacity: 0.3;
+}
+.nav3_word:hover{
+  opacity: 0.9;
+}
+.about_title{
+  position: relative;
+  top: -10px;
+  left: 0;
+  font-family: 'Noto Sans TC', sans-serif;
+  font-size: 100px;
+}
+.about_block{
+  position: relative;
+  top: -100px;
+  right: -250px;
+  background-color: #1B2121;
+  width: 80%;
+  height: 270px;
+}
+.about_article{
+  padding: 40px 0px;
+  color: white;
+/*  text-align: justify;*/
+  margin: 100px;
+  line-height: 50px;
+  font-size: 24px;
+}
+.about_pic{
+  width: 70%;
+  float: left;
+  position: relative;
+  top: -700px;
+  z-index: -1;
+}.clearfix{
+  overflow: auto;
+}
+.work_title{
+  font-family: 'Noto Sans TC', sans-serif;
+  font-size: 100px;
+
+  position: relative;
+}
+.c_pic{
+  float: left;
+  width: 90%;
+  z-index: 2;
+  top: -50px;
+  position: relative;
+}
+h2{
+  position: relative;
+  top: -50px;
+  font-family: 'Noto Sans TC', sans-serif;
+  font-size: 70px;
+  display: inline-block;
+}
+section{
+  z-index: 2;
+}
+.ch_block{
+  position: relative;
+  margin: 20px 0 0 0 ;
+  width: 80%;
+  height: 23%;
+  background: #1B2121;
+}
+.ch_article{
+  padding: 40px 0px;
+  color: white;
+  margin: 0px 85px;
+  line-height: 50px;
+  font-size: 24px;
+}
+.gallery{
+/*  border: 1px solid black;*/
+  background-color: #D7E2E1;
+  border-radius: 4px;
+  width: 100%;
+  height: 70%;
+  margin: 0;
+  overflow: scroll;
+  z-index: 2;
+}
+
+.scroll::-webkit-scrollbar{
+  width: 7px;
+  height: 7px;
+  border-radius: 4px;
+  background-color: #9DAAA9;
+}
+.scroll::-webkit-scrollbar-thumb{
+  border-radius: 10px;
+  background-color: #1B2121;
+}
+.board{
+  display: inline-block;
+  width: 23.5%;
+  height: auto;
+  margin: 5px;
+}.board img{
+  width: 100%;
+  border-radius: 5px;
+  height: auto;
+  -webkit-filter: drop-shadow(5px 5px 2px rgba(0, 0, 0, 0.4));
+  filter: drop-shadow(5px 5px 2px rgba(0, 0, 0, 0.4));
+}
+.board img:hover{
+  transition: width float 1s;
+  float: left;
+}
+.dropshadow{
+  -webkit-filter: drop-shadow(5px 5px 7px rgba(0, 0, 0, 0.5));
+  filter: drop-shadow(5px 5px 7px rgba(0, 0, 0, 0.5));
+}
+.web_pic{
+  width: 90%;
+  position: relative;
+  top: 250px;
+  text-align: center;
+}
+.game_block{
+  position: relative;
+  top: -100px;
+  right: -200px;
+  width: 80%;
+  height: 60%;
+  background-color: #1B2121;
+}
+.game_article{
+  padding: 40px 0px;
+  color: white;
+  margin: 0px 85px;
+  line-height: 50px;
+  font-size: 24px;
+}
+.selftour_block{
+  position: relative;
+  top: -100px;
+  width: 80%;
+  height: 75%;
+  background-color: #1B2121;
+}
+.selftour_article{
+  padding: 40px 0px;
+  color: white;
+  margin: 0px 85px;
+  line-height: 50px;
+  font-size: 24px;
+}
+.painting_block{
+  position: relative;
+  top: -100px;
+  width: 80%;
+  height: 65%;
+  background-color: #1B2121;
+}
+.painting_article{
+  padding: 40px 0px;
+  color: white;
+  margin: 0px 85px;
+  line-height: 50px;
+  font-size: 24px;
+}
+.contact{
+  width: 100%;
+  height: 200px;
+
+  text-align: center;
+  color: white;
+  background-color: #1B2121;
+}
